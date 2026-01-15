@@ -1,46 +1,30 @@
-Project Name
+Project Name : InsurTech
 
-InsurTech
-
-Overview
-
+Overview :
 The Vehicle Insurance Management System is a desktop application built with Java, JavaFX, and Maven. It allows users to manage:
 
-Clients information
-
-Vehicles data
-
-Vehicle insurance records
+Clients information :
+- Vehicles data
+- Vehicle insurance records
 
 The project demonstrates database operations (CRUD), GUI design, and clean project structure following common Java best practices.
 
-Features
+Features :
+- Client management (add, update, view)
+- Vehicle management
+- Vehicle insurance management
+  
+Database integratin :
+- JavaFX-based user interface
+- MVC-style project structure
 
-Client management (add, update, view)
-
-Vehicle management
-
-Vehicle insurance management
-
-Database integration
-
-JavaFX-based user interface
-
-MVC-style project structure
-
-Technologies Used
-
-Java
-
-JavaFX
-
-Maven
-
-JDBC / Database
-
-FXML
-
-CSS (for UI styling)
+Technologies Used :
+- Java
+- JavaFX
+- Maven
+- JDBC / Database
+- FXML
+- CSS (for UI styling)
 
 Project Structure
 src/
@@ -54,42 +38,25 @@ src/
          ├── *.fxml
          ├── *.css
          └── images/
-How to Run the Project
+         
+How to Run the Project :
 
-Make sure Java JDK is installed.
+1- Make sure Java JDK is installed.
 
-Make sure Maven is installed.
+2- Make sure Maven is installed.
 
-Open the project in an IDE such as IntelliJ IDEA or Eclipse.
+3- Open the project in an IDE such as IntelliJ IDEA or Eclipse.
 
-Configure the database connection if required.
+4- Configure the database connection if required.
 
-Run the main application class.
+5- Run the main application class.
 
-Database
+Database :
 
 The application uses a relational database to store clients, vehicles, and insurance data.
 
 Database connection is handled using JDBC.
 
-Purpose
-
+Purpose : 
 This project was developed as an educational / university project to practice:
 
-Java desktop development
-
-Database integration
-
-MVC architecture
-
-GUI design using JavaFX
-
-Future Improvements
-
-User authentication
-
-Advanced search and filtering
-
-Better error handling
-
-Improved UI/UX
